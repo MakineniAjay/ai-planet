@@ -2,21 +2,19 @@
 import React from 'react'
 import Card from './Card'
 import '../styles/Subm.css'
-import axios from 'axios'
-import { useState } from 'react'
+// import axios from 'axios'
+// import { useState } from 'react'
 
 const Allsub = () => {
-  const [data, setData] = useState([])
-  const fun = ()=>{
-    axios.post('http://localhost:5000/api/subm/getdata')
-    .then((res) => setData(res.data))
-    .catch((err) => console.log(err))
-  }
-  fun()
+  // const [data, setData] = useState([])
+  // axios.post('http://localhost:5000/api/subm/getdata')
+  // .then((res) => setData(res.data))
+  // .catch((err) => console.log(err))
+
   return (
     
     <div className='content'>
-      {data.map((edata)=>{
+      {/* {data.map((edata)=>{
         const str = btoa(
           String.fromCharCode(...new Uint8Array((edata.img.data.data)))
         )
@@ -28,8 +26,16 @@ const Allsub = () => {
                     description = {edata.description}
                     str = {str}
                   />
-      })}
+      })} */}
       {/* <h1>All submissions will display here</h1> */}
+
+      <Card/>
+      <Card/>
+      <Card/>
+      <Card/>
+      <Card/>
+      <Card/>
+      <Card/>
     </div>
   )
 }
