@@ -1,0 +1,50 @@
+.contain{
+    background-color: #F8F9FD;
+    padding: 55px 145px;
+}
+
+.data{
+    width: 913px;
+    height: 1405px;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    padding: 30px 48px;
+}
+
+.data h2{
+    margin-bottom: 40px;
+}
+
+.data label{
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    size: 17px;
+    font-weight: 600;
+}
+
+.inptxt{
+    width: 700px;
+    padding: 13px;
+    margin: 10px 0 40px 0;
+    border-radius: 10px;
+    border: 2px solid rgb(200 189 189 / 56%);
+}
+
+.datetype{
+    display: flex;
+    align-items: center;
+}
+
+.date{
+    width: 325px;
+    margin-right: 50px;
+}
+
+#description{
+    line-height: 21px;
+}
+
+.line{
+    border-bottom: 1px solid rgb(200 189 189 / 56%);
+    margin-bottom: 40px;
+}

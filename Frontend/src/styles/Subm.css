@@ -1,0 +1,5 @@
+.content{
+    margin: 0 120px;
+    display: grid;
+    grid-template-columns: 426px 426px 426px;
+}

@@ -1,0 +1,31 @@
+.card{
+    width: 380px;
+    height: 290px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    box-shadow: 0px 3px 24px rgba(132, 132, 132, 0.16), inset 0px -3px 6px rgba(0, 0, 0, 0.06);
+    margin: 50px 23px 0px 23px;
+    position: relative;
+}
+.title{
+    display: flex;
+    align-items: center;
+}
+.title_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    margin: 24px;
+    object-fit: cover;
+}
+
+.summary{
+    margin: 0 24px;
+}
+
+.time{
+    font-style: italic;
+    position: absolute;
+    right: 24px;
+    bottom: 24px;
+}
